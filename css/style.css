@@ -66,12 +66,9 @@ button{
   transition: width 0.5s , opacity 0.5s;
 }
 .ltr-effect:hover::after{
-width: 100%;
-opacity: 1;
-
+  width: 100%;
+  opacity: 1;
 }
-
-
 .tb-effect{
   position: relative;
 
@@ -94,16 +91,7 @@ height:  100%;
 opacity: 0.8
 
 }
-
-
-
-
-
-
-
 /* 3.0- Header section */
-
-
 .header{
   position: fixed;
   width: 100%;
@@ -171,24 +159,22 @@ opacity: 0.8
   text-decoration: none;
   width: 150px;
   display: block;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 .dropdown:hover .dropdown-menu{
   opacity: 1;
   visibility: visible;
   transition: opacity 1s , visibility 1s;
 }
-
 .clear{
     clear:both;
   }
-
 /* 3.1- Home section */
 .home{
   height: 100vh;
-  background-image: url(../images/background/background1.webp);
+  background-image: url("../images/background/background1.webp");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -506,7 +492,7 @@ background-color: #f8f8f8;
 /*numbers section*/
 .numbers{
 position: relative;
-background-image: url("C:/Users/خشان/Desktop/first project/images/background/background2.webp");
+background-image: url("../images/background/background2.webp");
 height: 300px;
 margin-top: 150px;
 background-size: cover;
@@ -605,55 +591,43 @@ color: white;
 }
   .pricing-item:hover .pricing-item-permonth{
     color: #fff;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-  .testimonial{
+}
+.testimonial{
   position: relative;
   height: 400px;
-  background-image: url("C:/Users/خشان/Desktop/first project/images/background/background3.webp");
+  background-image: url("../images/background/background3.webp");
   background-size: cover;
   background-attachment: fixed;
   }
-  .testimonial-content{
-    overflow: hidden;
-    padding: 120px 0;
-    width: 80%;
-    margin: auto;
-  }
-    .testimonial-item{
-      width: 50%;
-      float: left;
-      color: #fff;
-    }
-    .testimonial-item .testimonial-toplayer{
-      padding: 10px 100px 40px 100px;
-      position: relative;
-    }
-    .testimonial-item .testimonial-toplayer img{
-      position: absolute;
-      top: 8px;
-      left: 10px;
-      border-radius: 50%;
-      margin-right: 50px;
-    }
-      .testimonial-item .testimonial-toplayer h2{
-        margin-bottom: 10px;
+.testimonial-content{
+  overflow: hidden;
+  padding: 120px 0;
+  width: 80%;
+  margin: auto;
+}
+.testimonial-item{
+  width: 50%;
+  float: left;
+  color: #fff;
+}
+.testimonial-item .testimonial-toplayer{
+  padding: 10px 100px 40px 100px;
+  position: relative;
+}
+.testimonial-item .testimonial-toplayer img{
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+.testimonial-item .testimonial-toplayer h2{
+  margin-bottom: 10px;
 
-      }
-        .testimonial-item .testimonial-toplayer span{
-          color: #6195ff;
-        }
+}
+.testimonial-item .testimonial-toplayer span{
+  color: #6195ff;
+}
   .testimonial-disc{
     padding:0px 19px 0 0;
     line-height: 1.5;
