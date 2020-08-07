@@ -23,7 +23,6 @@
    - hover effect 1 (left to right) -
    - hover effect 2 (top to bottom) -
 */
-
 *{
   margin: 0;
   padding: 0;
@@ -769,46 +768,6 @@ padding: 20px;
   color: #7195ff;
   display: block;
     margin-bottom: 20px;
-}
-/* 3.8- Contact section */
-.content{
-
-  overflow: hidden;
-    border: 2px solid black;
-
-}
-.content-item{
-  border: 2px solid black;
-  width: 20%;
-  float: left;
-    margin: 0px 71px;
-    text-align: center;
-    padding: 10px;
-    margin: 0 71px 79px;
-}
-.content-item i{
-  color:#7195ff;
-}
-.content-item p{
-  margin: 10px 0;
-}
-.table-content{
-margin:0 0 0 15px;
-
-}
-.table-content input{
-  background-color: #F4F4F4;
-  padding: 0px 10px;
-  border: none;
-  margin-bottom: 20px;
-  height: 40px;
-  width: 100%;
-}
-.table-content textarea{
-  padding: 10px 10px;
-    min-height: 80px;
-    resize: vertical;
-      background-color: #F4F4F4;
 }
 /* 3.9- Footer section */
 .footer{
